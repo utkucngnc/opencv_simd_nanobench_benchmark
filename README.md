@@ -154,12 +154,15 @@ In order to pull & use the repository, first check the prerequisites.
 
 Below is the operation results of the 5 different built-in functions where the minimum number of iterations are limited to 5000 (_see the following [link](https://nanobench.ankerl.com/tutorial.html#something-unstable)_). The neighborhood (block size in OpenCV) and the shift in binarization (mean substraction constant in OpenCV) are selected as `7` and `2` respectively (_see the code for more detail_).
 
+For simple binary thresholding, the threshold is selected as the 45% of the maximum intensity value, `255`.
+
 <div align="center">
   <img src="images/src/example_result.png" alt="Logo" width="780" height="260">
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To conclude, `simd` library is superior in Simple Binary Thresholding whereas `opencv` dominates in Adaptive Thresholding.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
@@ -168,7 +171,6 @@ Below is the operation results of the 5 different built-in functions where the m
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->

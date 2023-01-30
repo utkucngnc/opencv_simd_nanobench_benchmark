@@ -54,7 +54,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The main goal of this project is to compare the binary thresholding and adaptive thresholding methods of the two image processing libraries, `open_cv`(https://github.com/opencv/opencv) and `simd`(https://github.com/ermig1979/Simd), using `nanobench`(https://github.com/martinus/nanobench) micro-benchmarking framework.
+The main goal of this project is to compare the binary thresholding and adaptive thresholding methods of the two image processing libraries, `open_cv` and `simd`, using `nanobench` micro-benchmarking framework.
+
+Among other micro-benchmarking frameworks such as `benchmark` by Google, `nanobench` is preferred due to it' s superior speed and easy-to-use API. Additionally, it' s a header-only library.
+
+<div align="center">
+  <a href="https://nanobench.ankerl.com/comparison.html">
+    <img src="images/src/totalruntime.svg" alt="Logo" width="240" height="240">
+  </a>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

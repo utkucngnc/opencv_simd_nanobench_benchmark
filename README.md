@@ -138,8 +138,7 @@ In order to pull & use the repository, first check the prerequisites.
    The iamge used in the benchmark is `lena` iamge. If you want to use an arbitrary image in an arbitrary path, open `run` script and change ts content with the following:
    ```sh
    #! /bin/sh
-
-  ./out/build/ocv_simd_nanobench $1
+   ./out/build/ocv_simd_nanobench $1
    ```
    Now the executable file can run with a user-promt as following:
    ```sh

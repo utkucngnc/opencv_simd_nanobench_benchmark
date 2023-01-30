@@ -11,15 +11,6 @@
 
   <p align="center">
     Comparative Benchmarking of Thresholding & Adaptive Thresholding Methods of OpenCV and SIMD Library using nanobench Micro-Benchmarking Module (LINUX ONLY)
-    <br />
-    <a href="https://github.com/utkucngnc/opencv_simd_nanobench_benchmark"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/utkucngnc/opencv_simd_nanobench_benchmark">View Demo</a>
-    ·
-    <a href="https://github.com/utkucngnc/opencv_simd_nanobench_benchmark/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/utkucngnc/opencv_simd_nanobench_benchmark/issues">Request Feature</a>
   </p>
 </div>
 

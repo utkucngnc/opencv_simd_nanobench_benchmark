@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/utkucngnc/opencv_simd_nanobench_benchmark">
     <img src="images/src/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+The main goal of this project is to compare the binary thresholding and adaptive thresholding methods of the two image processing libraries, `open_cv`(https://github.com/opencv/opencv) and `simd`(https://github.com/ermig1979/Simd), using `nanobench`(https://github.com/martinus/nanobench) micro-benchmarking framework.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -170,6 +170,6 @@ Project Link: [https://github.com/utkucngnc/opencv_simd_nanobench_benchmark](htt
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 [cpp-url]: https://cplusplus.com/
-[cpp.com]: https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg
+[cpp.com]: https://www.freeiconspng.com/img/28401
 [CMake.com]: https://cmake.org/wp-content/uploads/2018/11/cmake_logo_slider.png
 [CMake-url]: https://cmake.org/

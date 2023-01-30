@@ -1,3 +1,3 @@
 #! /bin/sh
 
-./out/build/tutorial $1
+./out/build/ocv_simd_nanobench $1

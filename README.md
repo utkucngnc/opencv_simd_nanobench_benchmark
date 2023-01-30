@@ -62,8 +62,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* CMake [CMake-url]
-* C++ [cpp-url]
+* [CMake] (https://cmake.org/)
+* [C++] (https://cplusplus.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,9 +140,3 @@ Project Link: [https://github.com/utkucngnc/opencv_simd_nanobench_benchmark](htt
 * OpenCV Documentation [https://docs.opencv.org/4.x/]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[cpp-url]: https://cplusplus.com/
-[CMake-url]: https://cmake.org/

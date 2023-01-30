@@ -10,7 +10,7 @@
 <h3 align="center">OpenCV & SIMD nanobench Benchmark</h3>
 
   <p align="center">
-    Comparative Benchmarking of Thresholding & Adaptive Thresholding Methods of OpenCV and SIMD Library using nanobench Micro-Benchmarking Module
+    Comparative Benchmarking of Thresholding & Adaptive Thresholding Methods of OpenCV and SIMD Library using nanobench Micro-Benchmarking Module (LINUX ONLY)
     <br />
     <a href="https://github.com/utkucngnc/opencv_simd_nanobench_benchmark"><strong>Explore the docs »</strong></a>
     <br />
@@ -80,31 +80,70 @@ Among other micro-benchmarking frameworks such as `benchmark` by Google, `nanobe
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+In order to pull & use the repository, first check the prerequisites.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Ubuntu 18.04.x and later.
+* CMake ver. 3.13.x and later.
   ```sh
-  npm install npm@latest -g
+  cmake --version
   ```
+* C++11 and later.
+  ```sh
+  gcc --v
+  ```
+* OpenCV 4.x.
+  ```sh
+  sudo updatedb
+  cat $(locate OpenCVConfig.cmake) | grep "SET(OpenCV_VERSION "
+  ```
+* Simd
+* nanobench
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. To install the required packages, visit each link in Acknowledgements.
+2. Download the repository, extract it and open the path in your IDE.
+3. _If you don' t use VS Code, you may jump to Step 5._
+  In order to solve the syntax completion problem, the directory of the `opencv` library must be updated. Type the following:
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   cd /usr/local/include
+   -ls
    ```
-3. Install NPM packages
+   You will see the content of your include folder. If there is a folder called `opencv4`, move the `opencv2` to your main include directory and delete the remaining empty fodler:
    ```sh
-   npm install
+   sudo mv ./opencv4/opencv2 .
+   sudo rm -rf opencv4
+   -ls
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   If the only `opencv` include directory is `opencv2`, you may proceed to _Step 4_.
+4. Try to configure the project by running the `configure` script:
+   ```sh
+   path/to/repo/configure.sh
+   ```
+   You will get some path error by OpenCV because the path is changed. Go to the line where the error is thrown. Configure the line by deleting `opencv4/` part from there. Save the changes.
+5. Configure the project by running the `configure` script:
+   ```sh
+   path/to/repo/configure.sh
+   ```
+6. Build the project by running the `build` script:
+   ```sh
+   path/to/repo/build.sh
+   ```
+7. Run the executable file by running the `run` script:
+   ```sh
+   path/to/repo/run.sh
+   ```
+   The iamge used in the benchmark is `lena` iamge. If you want to use an arbitrary image in an arbitrary path, open `run` script and change ts content with the following:
+   ```sh
+   #! /bin/sh
+
+  ./out/build/ocv_simd_nanobench $1
+   ```
+   Now the executable file can run with a user-promt as following:
+   ```sh
+   path/to/repo/run.sh path_to_your_image.with_extension
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

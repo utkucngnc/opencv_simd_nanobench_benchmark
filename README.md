@@ -155,7 +155,7 @@ In order to pull & use the repository, first check the prerequisites.
 Below is the operation results of the 5 different built-in functions where the minimum number of iterations are limited to 5000 (_see the following [link](https://nanobench.ankerl.com/tutorial.html#something-unstable)_). The neighborhood (block size in OpenCV) and the shift in binarization (mean substraction constant in OpenCV) are selected as `7` and `2` respectively (_see the code for more detail_).
 
 <div align="center">
-  <img src="images/src/example_result.png" alt="Logo" width="720" height="420">
+  <img src="images/src/example_result.png" alt="Logo" width="720" height="240">
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

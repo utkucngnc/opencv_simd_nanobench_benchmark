@@ -60,7 +60,7 @@ Among other micro-benchmarking frameworks such as `benchmark` by Google, `nanobe
 
 <div align="center">
   <a href="https://nanobench.ankerl.com/comparison.html">
-    <img src="images/src/totalruntime.svg" alt="Logo" width="240" height="240">
+    <img src="images/src/totalruntime.svg" alt="Logo" width="640" height="800">
   </a>
 </div>
 
